@@ -5,7 +5,7 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 
-
+nltk.download('stopwords')
 punctuation = string.punctuation
 stop_words = nltk.corpus.stopwords.words('english')
 
